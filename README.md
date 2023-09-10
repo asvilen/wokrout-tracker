@@ -38,6 +38,11 @@ Before using the Workout Tracker, ensure you have the following:
 
 - A Google Account for Google Sheets and Sheety integration.
 
+
+- **Sheety API Configuration**: In the Sheety API (`sheety_api.py`) file, you need to specify your project name and sheet name:
+   - `PROJECT_NAME`: Your Sheety project name.
+   - `SHEET_NAME`: The name of the Google Sheet where workout data will be stored.
+
 ## Installation
 
 1. Clone this repository to your local machine.
