@@ -1,11 +1,13 @@
 from sheety_api import add_workout
 from nlp_api import get_exercise_details
 
-# Constants for user information
+# Custom Inputs
+################
 GENDER = "MALE"
 WEIGHT_KG = 71
 HEIGHT_CM = 175.00
 AGE = 34
+################
 
 # Ask the user for exercise input
 exercise_input = input("What exercise did you do today?: ")
