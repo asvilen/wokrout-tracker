@@ -8,7 +8,7 @@ HEIGHT_CM = 175.00
 AGE = 34
 
 # Ask the user for exercise input
-exercise_input = input("Tell which exercise you did today?: ")
+exercise_input = input("What exercise did you do today?: ")
 
 # Iterate through the exercise details obtained from the NLP API
 for element in get_exercise_details(exercise_input, GENDER, WEIGHT_KG, HEIGHT_CM, AGE):
