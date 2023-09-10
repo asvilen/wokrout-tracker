@@ -41,10 +41,41 @@ Before using the Workout Tracker, ensure you have the following:
 ## Installation
 
 1. Clone this repository to your local machine.
-
-2. Install the required Python packages using pip
+   ```
+   git clone https://github.com/yourusername/workout-tracker.git
+   ```
+2. Install the required Python packages using pip:
+   ```
+   pip install requests
+   ```
 
 3. Set up environment variables for authentication (as mentioned in the Requirements section).
+
+- For **Windows**:
+
+  ```
+  setx SHEETY_USER_NAME "your_sheety_username"
+  setx BEARER_TOKEN "your_bearer_token"
+  setx NUTRITIONIX_ID "your_nutritionix_id"
+  setx NUTRITIONIX_API "your_nutritionix_api"
+  ```
+
+- For **macOS** and **Linux**:
+
+  Open your terminal and add the following lines to your `~/.bashrc` or `~/.bash_profile`:
+
+  ```
+  export SHEETY_USER_NAME="your_sheety_username"
+  export BEARER_TOKEN="your_bearer_token"
+  export NUTRITIONIX_ID="your_nutritionix_id"
+  export NUTRITIONIX_API="your_nutritionix_api"
+  ```
+
+  Then, run the following command to apply the changes:
+
+  ```
+  source ~/.bashrc
+  ```
 
 ## Usage
 
