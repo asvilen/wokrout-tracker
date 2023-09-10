@@ -1,6 +1,6 @@
 # Workout Tracker
 
-Track your workouts and log exercise details effortlessly with the Workout Tracker.
+Track your workouts and log exercise details effortlessly with the Workout Tracker. 💪🏋️‍♀️
 
 ## Table of Contents
 
@@ -11,19 +11,18 @@ Track your workouts and log exercise details effortlessly with the Workout Track
 - [Usage](#usage)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
 
 ## Introduction
 
-The Workout Tracker is a Python-based application that helps you record your daily workouts and exercise details. It utilizes Natural Language Processing (NLP) to extract exercise information from your input and then logs it into a Google Spreadsheet for easy tracking.
+The Workout Tracker is a Python-based application that helps you record your daily workouts and exercise details. It utilizes Natural Language Processing (NLP) to extract exercise information from your input and then logs it into a Google Spreadsheet for easy tracking. 📝📈
 
 ## Features
 
-- **Exercise Logging**: Log your daily exercises with details such as exercise name, duration, and calories burnt.
+- **Exercise Logging**: Log your daily exercises with details such as exercise name, duration, and calories burnt. 🏃‍♀️🔥
 
-- **NLP Integration**: The application uses NLP to understand your exercise descriptions and extract relevant details.
+- **NLP Integration**: The application uses NLP to understand your exercise descriptions and extract relevant details. 🧠📊
 
-- **Google Sheets**: Recorded exercises are stored in a Google Spreadsheet for convenient access and tracking.
+- **Google Sheets**: Recorded exercises are stored in a Google Spreadsheet for convenient access and tracking. 📅📋
 
 ## Requirements
 
@@ -55,6 +54,8 @@ Before using the Workout Tracker, ensure you have the following:
 
 3. The Workout Tracker will extract exercise details and log them into the Google Spreadsheet.
 
+Enjoy your workouts and happy tracking! 💪🏋️‍♀️📈
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -62,10 +63,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - [Sheety](https://sheety.co/): For providing the Google Sheets API integration.
-- [Nutritionix](https://www.nutritionix.com/business/api): For the NLP-based exercise recognition.
+- [Nutritionix](https://www.nutritionix.com/business/api): For the NLP-based exercise reader.
 
-## Contact
 
-For any questions or feedback, please feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
 
-Enjoy your workouts and happy tracking! 🏋️‍♀️📈
